@@ -1,0 +1,59 @@
+<div class="app-container">
+    <!-- Header -->
+    <header id="header" class="fixed-top">
+        <a href="https://www.utsa.edu/" class="logo-container">
+            <img src="assets/images/UTSA_Logo.png" alt="UTSA Logo" class="logo">
+            <p class="logo-text">The University of Texas at San Antonio</p>
+        </a>
+            <nav class="navbar">
+            <ul class="nav-wrapper">
+                <li class="nav-item dropdown"><a href="/" class="dropbtn">Home</a></li>
+                <li class="nav-item dropdown hide"><a href="https://my.utsa.edu/" class="dropbtn">myUTSA</a></li>
+                <li class="nav-item dropdown hide"><a href="https://asap.utsa.edu/" class="dropbtn">ASAP</a></li>
+                <li class="nav-item dropdown hide"><a href="https://onestop.utsa.edu/registration/degree-planning/degreeworks/" class="dropbtn">DegreeWorks</a></li>
+                <!-- Dropdown About UTSA -->
+                <li class="nav-item dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">About</a>                    
+                    <div class="dropdown-content">
+                        <!-- Dropdown Links -->
+                        <a href="https://www.utsa.edu/about">About UTSA</a>
+                        <a href="/about-us">About Us</a>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <router-outlet></router-outlet>
+    </main>
+
+<footer id="footer-background">
+    <div class="footer-top">
+        <!-- Contact Info -->
+        <div class="footer-contact-info hide-big">
+            <p>One UTSA Circle San Antonio, TX 78249 | Information 210-458-4011</p> 
+        </div>
+        <!-- Social Media Links -->
+        <div class="social-media-links hide-big">
+            <a href="https://www.facebook.com/UTSA" class="social-link facebook"></a>
+            <a href="https://twitter.com/utsa" class="social-link twitter"></a>
+            <a href="https://www.youtube.com/user/utsa" class="social-link youtube"></a>
+            <a href="https://www.linkedin.com/school/the-university-of-texas-at-san-antonio/" class="social-link linkedin"></a>
+            <a href="https://www.instagram.com/utsa/" class="social-link instagram"></a>        </div>
+    </div>
+    <div class="footer-bottom">
+        <!-- Footer Links -->
+        <div class="footer-links">
+            <p><a href="https://utsa.edu">&copy; 2024 The University of Texas at San Antonio</a> |
+            <a href="https://utsa.edu/policies">Policies</a> | 
+            <a href="https://utsa.edu/policies/accessibility">Web Accessibility</a> | 
+            <a href="https://utsa.edu/policies/reqlinks.html">Required Links</a> | 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSciO6UJL8XxXZoe16-Mygipm6RFijPSJ4SbDDY1Nr4PSXsTZg/viewform" target="_blank">Report a Bug</a> | 
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLScDgFSW_iyt2SaktUgGHm-9wGn9vQN8fk7BBqw2JhSJBAVY8A/viewform" target="_blank">Give Feedback</a>
+        </div>
+        <!-- Report a Bug -->
+        
+    </div>
+</footer>
+</div>
